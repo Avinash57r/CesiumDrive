@@ -1,0 +1,24 @@
+# Visual Studio / JetBrains
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.xcodeproj
+*.xcworkspace
+
+# Unreal Engine Generated Files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+
+# Ignore everything in Plugins folders' Intermediate/Binaries unless you want to track them
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# MacOS specific
+.DS_Store
