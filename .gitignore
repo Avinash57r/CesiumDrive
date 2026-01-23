@@ -26,3 +26,5 @@ Plugins/*/Intermediate/
 #ignore database 
 *.sqlite
 cesium-request-cache.sqlite
+cesium-request-cache.sqlite-shm
+cesium-request-cache.sqlite-wal
