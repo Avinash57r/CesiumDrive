@@ -1,0 +1,13 @@
+Added in Cesium using standard cesium lighting and map
+
+Had to create new blueprint nodes in sports car blueprint and make it auto posses player 0
+
+BP:
+
+Added in 
+Delay->Parent:BeginPlay->AddMappingContext->Prev stuff -> Delay(3 sec important since cesium needs time to load or car will fall thorugh world) -> enable gravity 
+
+must disable gravity on sport car pawn and let bp enable it. 
+
+Set maximum screen space error to 16 so thigns load nicely might want to mess with that.
+

@@ -24,8 +24,10 @@ Plugins/*/Intermediate/
 .DS_Store
 
 #sqllite files (Cesium cache)
-*.sqlite
-cesium-request-cache.sqlite
-*.sqlite
 *.sqlite-shm
 *.sqlite-wal
+#ignore database 
+*.sqlite
+cesium-request-cache.sqlite
+cesium-request-cache.sqlite-shm
+cesium-request-cache.sqlite-wal
