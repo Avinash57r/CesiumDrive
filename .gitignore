@@ -22,3 +22,10 @@ Plugins/*/Intermediate/
 
 # MacOS specific
 .DS_Store
+
+#sqllite files (Cesium cache)
+*.sqlite
+cesium-request-cache.sqlite
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
